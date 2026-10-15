@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Adventure 2</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Scene 1: inside -->
+  <section id="scene1" class="scene">
+    <div id="guy1" class="sprite">
+      <img id="guy1-img" src="assets/diatom-guy.png" alt="Diatom guy" draggable="false">
+    </div>
+    <img id="hat" class="sprite bob" src="assets/hat.png" alt="Hat" draggable="false">
+    <img id="door" class="sprite hidden" src="assets/door.png" alt="Door" draggable="false">
+  </section>
+
+  <!-- Scene 2: outside -->
+  <section id="scene2" class="scene hidden">
+    <img id="house" class="sprite" src="assets/house.png" alt="House" draggable="false">
+    <img id="guy2" class="sprite bob" src="assets/diatom-guy-with-hat.png" alt="Diatom guy" draggable="false">
+    <div id="car" class="sprite">
+      <img id="car-img" src="assets/car.png" alt="Car" draggable="false">
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
